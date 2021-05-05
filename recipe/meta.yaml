@@ -42,10 +42,10 @@ test:
 
 about:
   home: http://github.com/sertit/eoreader/
-  summary: Multi satellite reader allowing you to load bands and index and stack them.
+  summary: Multi satellite reader allowing you to load bands and index and stack them
   license: Apache-2.0
   license_file: LICENSE
-  description: Multi satellite reader allowing you to load bands and index and stack them.
+  description: Multi satellite reader allowing you to load bands and index and stack them
   doc_url: https://sertit.github.io/eoreader/
   dev_url: http://github.com/sertit/eoreader
 
