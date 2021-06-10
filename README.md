@@ -7,13 +7,13 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eoreader-feedstock/blob/master/LICENSE.txt)
 
-Summary: Multi satellite reader allowing you to load bands and index and stack them.
+Summary: Remote-sensing opensource python library reading optical and SAR sensors, loading and stacking bands, clouds, DEM and index.
 
 Development: http://github.com/sertit/eoreader
 
-Documentation: https://sertit.github.io/eoreader/
+Documentation: https://eoreader.readthedocs.io/en/latest/
 
-Multi satellite reader allowing you to load bands and index and stack them.
+Remote-sensing opensource python library reading optical and SAR sensors, loading and stacking bands, clouds, DEM and index.
 
 Current build status
 ====================
