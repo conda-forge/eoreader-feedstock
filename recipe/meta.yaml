@@ -29,7 +29,7 @@ requirements:
     - rioxarray >=0.4.0
     - rtree
     - cloudpathlib
-    - sertit >=1.6.0
+    - sertit >=1.7.3
     - validators
 
 test:
