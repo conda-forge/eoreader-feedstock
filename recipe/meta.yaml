@@ -15,7 +15,13 @@ build:
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   always_include_files:
-    - eoreader/data/*.xml
+    - eoreader/data/cplx_s1_preprocess_default.xml
+    - eoreader/data/cplx_sar_preprocess_default.xml
+    - eoreader/data/grd_s1_preprocess_default.xml
+    - eoreader/data/grd_sar_preprocess_default.xml
+    - eoreader/data/grd_sar_preprocess_fallback.xml
+    - eoreader/data/preprocess_s3.xml
+    - eoreader/data/sar_despeckle_default.xml
 
 requirements:
   host:
