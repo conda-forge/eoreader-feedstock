@@ -38,6 +38,7 @@ requirements:
     - cloudpathlib
     - sertit >=1.11.0
     - validators
+    - methodtools
 
 test:
   imports:
