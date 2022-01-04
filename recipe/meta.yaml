@@ -37,8 +37,8 @@ test:
     - eoreader.bands
     - eoreader.products.optical
     - eoreader.products.sar
-#  commands:
-#    - pip check
+  commands:
+    - pip check
   requires:
     - pip
 
