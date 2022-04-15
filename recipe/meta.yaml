@@ -29,8 +29,9 @@ requirements:
     - rioxarray >=0.4.0
     - rtree
     - cloudpathlib
-    - sertit >=1.11.0
+    - sertit >=1.13.2
     - validators
+    - matplotlib
 
 test:
   imports:
