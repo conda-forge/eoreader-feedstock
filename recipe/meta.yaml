@@ -31,7 +31,7 @@ requirements:
     - cloudpathlib
     - sertit >=1.13.2
     - validators
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
