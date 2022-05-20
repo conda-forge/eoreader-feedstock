@@ -11,7 +11,7 @@ source:
   sha256: a53139f02fd5210bd255c4904d044757285011a31e40e26805d2e408cc19e512
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -32,6 +32,7 @@ requirements:
     - sertit >=1.13.2
     - validators
     - matplotlib-base
+    - methodtools
 
 test:
   imports:
@@ -39,8 +40,8 @@ test:
     - eoreader.bands
     - eoreader.products.optical
     - eoreader.products.sar
-  #commands:
-  #  - pip check
+  commands:
+    - pip check
   requires:
     - pip
 
