@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.14.0" %}
+{% set version = "0.15.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: a53139f02fd5210bd255c4904d044757285011a31e40e26805d2e408cc19e512
+  sha256: 966db740447c0c7aad9a1425f40d85169888fb43972acbe9af177cae61b8f2e8
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,17 +29,18 @@ requirements:
     - rioxarray >=0.4.0
     - rtree
     - cloudpathlib
-    - sertit >=1.13.2
+    - sertit >=1.14.0
     - validators
     - matplotlib-base
     - methodtools
+    - pystac
 
 test:
   imports:
     - eoreader
     - eoreader.bands
-    - eoreader.products.optical
-    - eoreader.products.sar
+    - eoreader.stac
+    - eoreader.products
   commands:
     - pip check
   requires:
