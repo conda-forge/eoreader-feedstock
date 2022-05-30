@@ -33,6 +33,7 @@ requirements:
     - validators
     - matplotlib-base
     - methodtools
+    - pystac
 
 test:
   imports:
