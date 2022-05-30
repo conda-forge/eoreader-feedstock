@@ -29,7 +29,7 @@ requirements:
     - rioxarray >=0.4.0
     - rtree
     - cloudpathlib
-    - sertit >=1.13.2
+    - sertit >=1.14.0
     - validators
     - matplotlib-base
     - methodtools
@@ -38,8 +38,8 @@ test:
   imports:
     - eoreader
     - eoreader.bands
-    - eoreader.products.optical
-    - eoreader.products.sar
+    - eoreader.stac
+    - eoreader.products
   commands:
     - pip check
   requires:
