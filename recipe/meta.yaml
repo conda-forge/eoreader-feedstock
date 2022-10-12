@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.16.1" %}
+{% set version = "0.17.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: 904f7e3fb6baf838bc99a34da4761055feec964a37d77a57993384a821a42b2e
+  sha256: 1504c768d4a13718c25f72949496efa88ed4f5a3ba2a90d270a89631c720e127
 
 build:
   number: 0
@@ -18,18 +18,18 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - geopandas >=0.9.0
+    - geopandas >=0.11.0
     - lxml
     - h5netcdf
-    - python >=3.7
-    - rasterio >=1.2.2
+    - python >=3.8
+    - rasterio >=1.3.0
     - xarray >=0.18.0
     - rioxarray >=0.4.0
     - rtree
     - cloudpathlib
-    - sertit >=1.14.0
+    - sertit >=1.19.0
     - validators
     - matplotlib-base
     - methodtools
