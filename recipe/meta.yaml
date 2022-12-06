@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.17.0" %}
+{% set version = "0.18.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: 1504c768d4a13718c25f72949496efa88ed4f5a3ba2a90d270a89631c720e127
+  sha256: d4c3faff2bdb2b0d86ad2efa83a93e99218a8cf4cdc5c5a3fb5dca75192443ee
 
 build:
   number: 0
@@ -29,11 +29,14 @@ requirements:
     - rioxarray >=0.4.0
     - rtree
     - cloudpathlib
-    - sertit >=1.19.0
+    - sertit >=1.20.3
     - validators
     - matplotlib-base
     - methodtools
     - pystac
+    - spyndex >=0.2.0
+    - pyresample
+    - zarr
 
 test:
   imports:
