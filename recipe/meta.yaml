@@ -37,6 +37,7 @@ requirements:
     - spyndex >=0.2.0
     - pyresample
     - zarr
+    - dicttoxml
 
 test:
   imports:
