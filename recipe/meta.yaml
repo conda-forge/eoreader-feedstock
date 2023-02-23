@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.19.1" %}
+{% set version = "0.19.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: 79bc712f1ca3c1f58a417b758c4fe664e444c34420edafcd2bf6c6b0c79b0a6e
+  sha256: aeac8051c28ef32f4313018b702136d8aec0a002d565a3995f60e4cfc35a7d5f
 
 build:
   number: 0
