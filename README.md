@@ -1,11 +1,11 @@
-About eoreader
-==============
+About eoreader-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eoreader-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/sertit/eoreader/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eoreader-feedstock/blob/main/LICENSE.txt)
 
 Summary: Remote-sensing opensource python library reading optical and SAR sensors, loading and stacking bands, clouds, DEM and index.
 
