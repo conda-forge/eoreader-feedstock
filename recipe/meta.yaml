@@ -34,7 +34,7 @@ requirements:
     - matplotlib-base
     - methodtools
     - pystac
-    - spyndex >=0.2.0
+    - spyndex >=0.3.0
     - pyresample
     - zarr
     - dicttoxml
