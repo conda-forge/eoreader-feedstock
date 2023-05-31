@@ -18,18 +18,18 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
   run:
     - geopandas >=0.11.0
     - lxml
     - h5netcdf
-    - python >=3.8
+    - python >=3.9
     - rasterio >=1.3.0
     - xarray >=0.18.0
     - rioxarray >=0.10.0
     - rtree
     - cloudpathlib >=0.10.0
-    - sertit >=1.24.4
+    - sertit >=1.27.0
     - validators
     - matplotlib-base
     - methodtools
