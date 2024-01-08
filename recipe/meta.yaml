@@ -34,8 +34,6 @@ requirements:
     - matplotlib-base
     - methodtools
     - pystac
-    - stac-asset
-    - planetary_computer
     - spyndex >=0.3.0
     - pyresample
     - zarr
