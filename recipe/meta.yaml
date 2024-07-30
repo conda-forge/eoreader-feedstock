@@ -29,7 +29,7 @@ requirements:
     - rioxarray >=0.10.0
     - rtree
     - cloudpathlib >=0.10.0
-    - sertit >=1.33.0
+    - sertit >=1.39.1
     - validators
     - matplotlib-base
     - methodtools
