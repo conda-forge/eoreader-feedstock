@@ -20,16 +20,17 @@ requirements:
     - pip
     - python >=3.9
   run:
-    - geopandas >=0.11.0
+    - geopandas >=0.14.4
     - lxml
     - h5netcdf
     - python >=3.9
-    - rasterio >=1.3.0
-    - xarray >=0.18.0
+    - rasterio >= 1.3.10
+    - xarray >= 2024.06.0
     - rioxarray >=0.10.0
+    - odc-geo >= 0.4.6
     - rtree
-    - cloudpathlib >=0.10.0
-    - sertit >=1.39.1
+    - cloudpathlib >=0.12.1
+    - sertit >=1.42.2
     - validators
     - matplotlib-base
     - methodtools
