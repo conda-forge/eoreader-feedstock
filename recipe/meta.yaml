@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.21.6" %}
+{% set version = "0.21.7" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: edff0dc4e50cbdfe2f12eb30707f59fe583b05fafa53b436eaf5b20f2ce7acd8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
+  sha256: 23937a01d809a364695ea141ef1272a478fac461e1ec64619ab02fbbb311839f
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.9
+    - python 3.9
   run:
     - geopandas >=0.14.4
     - lxml
@@ -50,6 +50,7 @@ test:
   commands:
     - pip check
   requires:
+    - python 3.9
     - pip
 
 about:
