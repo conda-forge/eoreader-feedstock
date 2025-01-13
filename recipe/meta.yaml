@@ -31,7 +31,7 @@ requirements:
     - odc-geo >=0.4.6
     - rtree
     - cloudpathlib >=0.12.1
-    - sertit >=1.42.2
+    - sertit >=1.44.1
     - validators
     - matplotlib-base
     - methodtools
