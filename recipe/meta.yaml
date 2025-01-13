@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.21.7" %}
+{% set version = "0.21.8" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: 23937a01d809a364695ea141ef1272a478fac461e1ec64619ab02fbbb311839f
+  sha256: 4968b7c16e64da93224838340543080dbdab4e65ab606e138c7e40cbbda3dc62
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -31,7 +31,7 @@ requirements:
     - odc-geo >=0.4.6
     - rtree
     - cloudpathlib >=0.12.1
-    - sertit >=1.42.2
+    - sertit >=1.44.1
     - validators
     - matplotlib-base
     - methodtools
