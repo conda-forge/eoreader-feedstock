@@ -30,7 +30,7 @@ requirements:
     - rioxarray >=0.10.0
     - odc-geo >=0.4.6
     - rtree
-    - cloudpathlib >=0.12.1
+    - cloudpathlib-s3 >=0.12.1
     - sertit >=1.44.1
     - validators
     - matplotlib-base
@@ -40,6 +40,7 @@ requirements:
     - pyresample
     - zarr
     - dicttoxml
+    - tifffile
 
 test:
   imports:
