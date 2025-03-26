@@ -41,6 +41,7 @@ requirements:
     - zarr
     - dicttoxml
     - tifffile
+    - ephem
 
 test:
   imports:
