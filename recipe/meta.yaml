@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.21.10" %}
+{% set version = "0.22.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: c77ded1a0984a54bbdd71d8e31cf0312c6d49c517f354bf2285fda1446b348a9
+  sha256: ad4ff9fe38653fe7662cfb649dfd51de0c04ca3233fbf99b52dc067b3c0ba3bf
 
 build:
   number: 0
@@ -41,6 +41,7 @@ requirements:
     - zarr
     - dicttoxml
     - tifffile
+    - ephem
 
 test:
   imports:
