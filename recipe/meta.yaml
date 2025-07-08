@@ -42,6 +42,7 @@ requirements:
     - dicttoxml
     - tifffile
     - ephem
+    - google_auth_httplib2  # workaround
 
 test:
   imports:
