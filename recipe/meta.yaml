@@ -42,7 +42,7 @@ requirements:
     - dicttoxml
     - tifffile
     - ephem
-    - google_auth_httplib2
+    - earthengine-api != 1.5.23
 
 test:
   imports:
