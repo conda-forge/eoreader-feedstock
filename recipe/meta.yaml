@@ -43,6 +43,7 @@ requirements:
     - ephem
     # stac    
     - pystac
+    - xdem >=0.1.4
 
 test:
   imports:
