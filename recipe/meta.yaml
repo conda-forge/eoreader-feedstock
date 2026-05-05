@@ -38,7 +38,7 @@ requirements:
     - spyndex >=0.7.1
     - pyresample
     - zarr
-    - dicttoxml
+    - dict2xml
     - tifffile
     - ephem
     # stac    
