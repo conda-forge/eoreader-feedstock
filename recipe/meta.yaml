@@ -1,5 +1,5 @@
 {% set name = "eoreader" %}
-{% set version = "0.24.2" %}
+{% set version = "0.24.3" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
-  sha256: facbd70b9448e43d1a03f93fea9d5dc04447bc64ffb2cf6a462f4208af0e9587
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/eoreader-{{ version }}.tar.gz
+  sha256: 284acdb6c0ec8bf7463a22f52a72ea2b45faf6d875658598a56a7ba4cb72646c
 
 build:
   number: 0
